@@ -1,25 +1,34 @@
-# Create React App example
+# SteelBrew Corp
+
+Welcome to the public repository for the minimalistic Official SteelBrew Corp web site!
 
 ## How to use
 
-Download the example [or clone the repo](https://github.com/mui-org/material-ui):
+We will add instructions on how to contribute and update content later.
 
-```sh
-curl https://codeload.github.com/mui-org/material-ui/tar.gz/master | tar -xz --strip=2 material-ui-master/examples/create-react-app
-cd create-react-app
-```
+### Publish content
 
-Install it and run:
+_This is for those who wants to create content like blog posts, add images etc._
 
-```sh
-npm install
-npm start
-```
+We use [Sanity](https://sanity.io), a headless CMS to publish and store content. 
 
-or:
+ToDo: Instructions
 
-[![Edit on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/mui-org/material-ui/tree/master/examples/create-react-app)
+### Development
 
-## The idea behind the example
+_This is for those who wants to develop the page with new features and knows their way around web development._
 
-This example demonstrates how you can use [Create React App](https://github.com/facebookincubator/create-react-app).
+ - We use [GitHub pages](gh_pages) to deploy our SPA. 
+ - Read the [Sanity overview docs][sanity_ov] to get a sense of it, and delve deeper in to learn more.
+
+ToDo: Instructions, project details.
+
+
+
+[gh_pages]: https://help.github.com/en/github/working-with-github-pages/creating-a-github-pages-site#creating-your-site
+[sanity_ov]: https://www.sanity.io/docs/overview-introduction
+
+
+## Credits
+
+The great SteelBrew Corp
