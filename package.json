@@ -1,17 +1,20 @@
 {
   "name": "steelbrew-corp-web",
   "version": "0.0.1",
-  "homepage": "/steelbrew",
+  "homepage": "/corp",
   "private": false,
   "scripts": {
     "start": "react-scripts start",
+    "dev": "npm run start",
     "build": "react-scripts build",
     "deploy": "npm run build && gh-pages -d build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "tsc --noEmit && eslint \"*/**/*.{js,ts,tsx}\" --fix"
   },
   "dependencies": {
     "@material-ui/core": "latest",
+    "@sanity/client": "^1.148.3",
     "clsx": "latest",
     "react": "latest",
     "react-dom": "latest",
@@ -30,6 +33,14 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.2.0"
+    "typescript": "^3.8.2",
+    "@types/react-dom": "^16.9.5",
+    "@typescript-eslint/eslint-plugin": "^2.20.0",
+    "@typescript-eslint/parser": "^2.20.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "gh-pages": "^2.2.0",
+    "prettier": "^1.19.1"
   }
 }
